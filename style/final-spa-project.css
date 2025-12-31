@@ -1,0 +1,33 @@
+body{
+    background-image: url("../images/programming-background-with-person-working-with-codes-computer.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    backdrop-filter: blur(5px);
+
+}
+.carousel{
+    max-height: 500px;
+}
+.cardBox{
+    margin: 150px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.cardBox > .item{
+    display: grid;
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+.cardBox > .item > img{
+    max-width: 300px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
+.htmlblog{
+    display: grid;
+    justify-content: baseline;
+    margin: 200px 0 200px 0;
+}
